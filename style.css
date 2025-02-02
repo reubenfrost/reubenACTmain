@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.info{
+    height: 40vh;
+    width: 100%;
+}
+.info h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+    color: yellow;
+}
+.info p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: monospace;
+    font-size: large;
+}
+.info h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.links{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    background-color: white;
+}
+.links iframe{
+    height: 105%;
+    
+}
+.discord-link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: cyan;s
+}
+.contact-container .form-container {
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    
+}
+.contact-container .form-container input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cyan;
+    color: green;
+    height: 60px;
+    width: 80px;
+    padding: 14px;
+    margin: 10px;
+}
+.contact-container .form-container textarea{
+    height: 90%;
+    background-color: cyan; 
+    text-decoration:dotted;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; 
+}
+.contact-container .form-container button{
+    height: 40px;
+    width: 80px;
+    background-color: red;
+    transition: all ease-in 0.25s;
+}
+.contact-container .form-container button:hover{
+    color: green;
+    background-color: black;
+}
